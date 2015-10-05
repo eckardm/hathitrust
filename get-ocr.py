@@ -142,7 +142,7 @@ for ocr_file in os.listdir('ocr'):
     
         # printing it to the terminal(just for fun)
         print line
-        
+
         # open the ocr total file
         with open('ocr.txt', 'ab') as ocr_total:
             # write it to the ocr total file
